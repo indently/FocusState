@@ -42,7 +42,7 @@ struct ContentView: View {
     
     func submitData() {
         focusField = nil
-        submittedText = usernameText + "," + passwordText
+        submittedText = "\(usernameText), \(passwordText)"
     }
 }
 
